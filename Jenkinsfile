@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Fetch'){
             steps{
-               git branch : 'main'
+               git branch : 'main',
                url : 'https://github.com/Tejas091999/Tshirt_abhi.git' 
             }
         }
